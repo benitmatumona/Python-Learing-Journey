@@ -6,6 +6,7 @@ def main():
 def adieu():
     new = []
     p = inflect.engine()
+    
     while True:
         try:
             user_input = input("Input: ")
