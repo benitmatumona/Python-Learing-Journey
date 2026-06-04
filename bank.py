@@ -4,7 +4,7 @@ def main():
 
 
 def greeting(greet):
-    if greet.lower().startswith('hello'):
+    if greet.strip().lower().startswith('hello'):
         return "$0"
     elif greet.lower().startswith('h'):
         return "$20"
